@@ -23,6 +23,15 @@ public class footballscript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape)) ;
 
+
+        {
+
+            rb.AddExplosionForce(500, transform.position + new Vector3(0, -1, -1), 2);
+
+
+
+        }
+
         
             
                 }
